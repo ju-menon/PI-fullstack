@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="top">
+            <div class="logo">
+                <img id="logo-site" src="./img/logo site.png" alt="Logo do site">
+            </div>
+            <div class="entrar"><a>
+                <img id="usuario" src="./img/logo usuario.png" alt="Entra no login do usuario">
+                <p> Olá, Maria </p>
+            </a></div>
+        </div>
+        <div class="bottom">
+            <nav>
+                <ul class="options">
+                    <li><a> Áudio </a></li>
+                    <li><a> Cordas </a></li>
+                    <li><a> Percusão </a></li>
+                    <li><a> Sopro </a></li>
+                    <li><a> Teclas </a></li>
+                    <li><a> Iluminação </a></li>
+                    <li><a> Ofertas </a></li>
+                    <li><a> Outros </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="dadosCadastrais">
+            <div class="cadastrarDados">
+                <p class="cadastro"><a> Minha conta </a></p>
+                <p class="cadastro"><a> Meus pedidos </a></p>
+                <p class="cadastro"><a> Meus dados </a></p>
+                <p class="cadastro"><a> Meus endereços </a></p>
+                <p class="cadastro"><a> Alterar senha </a></p>
+                <p class="cadastro"><a> Sair </a></p>
+            </div>
+        </div>
+        <div class="dadosPessoais">
+            <h2 id="meus-dados"> Meus dados </h2>
+            <p></p>
+            <h4 id="dados-pessoais"> Dados pessoais </h4>
+            <form action="">
+                <label class="dadosCliente" for="email"></label>
+                <input class="text-input" type="email" name="email" id="email" placeholder="E-mail: (seuemail@email.com.br)">
+                <p></p>
+                <label class="dadosCliente" for="nome"></label>
+                <input class="text-input" type="text" name="nome" id="nome" placeholder="Nome completo: (Maria Jose da Silva)">
+                <p></p>
+                <label class="dadosCliente" for="cpf"></label>
+                <input class="text-input" type="text" name="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                    placeholder="CPF: (000.000.000-00)">
+                <p></p>
+                <label class="dadosCliente" for="date"></label>
+                <input class="text-input" type="text" name="date" id="date" placeholder="Data de nascimento: 00/00/0000">
+                <p></p>
+                <label class="dadosCliente" for="telefone"></label>
+                <input class="text-input" type="text" name="telefone" id="telefone" placeholder="Telefone: (**) *****-****">
+                <p></p>
+                <button id="button" type="submit">Salvar alterações</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h3> CATEGORIAS </h3>
+            <ul id="rodape">
+                <li><a> Áudio </a></li>
+                <li><a> Cordas </a></li>
+                <li><a> Percusão </a></li>
+                <li><a> Sopro </a></li>
+                <li><a> Teclas </a></li>
+                <li><a> Iluminação </a></li>
+                <li><a> Ofertas </a></li>
+                <li><a> Outros </a></li>
+            </ul>
+        </div>
+        <div>
+            <ul id="rodape">
+                <h3> INSTITUCIONAL </h3>
+                <li><a> Sobre nós </a></li>
+                <li><a> Como comprar </a></li>
+                <li><a> Politica e Privacidade </a></li>
+                <li><a> Frete e Envio </a></li>
+                <li><a> Pagamentos </a></li>
+                <li><a> Trocas e Devoluções </a></li>
+                <li><a> Contato </a></li>
+            </ul>
+        </div>
+        <div>
+            <h3> ATENDIMENTO </h3>
+            <ul id="rodape">
+                <li><a> Tefelone: (**) ****-**** </a></li>
+                <li><a> Whatsapp: (**) *****-**** </a></li>
+                <li><a> Email: vendas@musica.com.br </a></li>
+            </ul>
+        </div>
+        <div id="rodape">
+            <h3> FORMAS DE PAGAMENTO </h3>
+            <img src="./img/formas-de-pagamento-logos-cópia.png" alt="Formas de pagamento">
+        </div>
+    </footer>
+
+</body>
+
+</html> 
